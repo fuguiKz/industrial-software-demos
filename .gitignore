@@ -485,7 +485,7 @@ $RECYCLE.BIN/
 
 # Local cache and unrelated resume artifacts
 .nuget/
-index.html
-styles.css
-print.css
-zheng-meiran-resume.pdf
+/index.html
+/styles.css
+/print.css
+/zheng-meiran-resume.pdf

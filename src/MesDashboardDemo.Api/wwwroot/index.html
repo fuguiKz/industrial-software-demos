@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MES Dashboard Demo</title>
+    <meta
+      name="description"
+      content="工业产线看板演示：OEE、良率、CT、告警与设备负载。"
+    />
+    <link rel="stylesheet" href="./site.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">MES Dashboard Demo</p>
+          <h1>封装产线实时监控与数据分析平台</h1>
+          <p class="hero__copy">
+            面向工程、制造与设备团队的轻量演示：聚焦 OEE、良率、节拍、告警与派工建议。
+          </p>
+        </div>
+        <div class="hero__panel" id="hero-panel"></div>
+      </section>
+
+      <section class="metrics" id="metrics"></section>
+
+      <section class="grid grid--primary">
+        <article class="panel panel--chart">
+          <div class="panel__head">
+            <div>
+              <p class="panel__eyebrow">Trend</p>
+              <h2>小时级产线趋势</h2>
+            </div>
+            <span class="chip">OEE / 良率 / CT</span>
+          </div>
+          <div id="trend-chart" class="chart"></div>
+        </article>
+
+        <article class="panel panel--chart">
+          <div class="panel__head">
+            <div>
+              <p class="panel__eyebrow">Defect Mix</p>
+              <h2>缺陷分布</h2>
+            </div>
+            <span class="chip">AOI 复判</span>
+          </div>
+          <div id="defect-chart" class="chart"></div>
+        </article>
+      </section>
+
+      <section class="grid grid--secondary">
+        <article class="panel">
+          <div class="panel__head">
+            <div>
+              <p class="panel__eyebrow">Equipment</p>
+              <h2>设备负载</h2>
+            </div>
+            <span class="chip">Live Snapshot</span>
+          </div>
+          <div class="equipment-list" id="equipment-list"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel__head">
+            <div>
+              <p class="panel__eyebrow">Alerts</p>
+              <h2>告警与建议</h2>
+            </div>
+            <span class="chip chip--alert">Actionable</span>
+          </div>
+          <div class="dispatch-card" id="dispatch-card"></div>
+          <div class="alert-list" id="alert-list"></div>
+        </article>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

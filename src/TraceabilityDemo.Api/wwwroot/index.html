@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traceability Demo</title>
+    <meta
+      name="description"
+      content="物料-影像回溯与 AI 复判演示页面。"
+    />
+    <link rel="stylesheet" href="./site.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Traceability Demo</p>
+          <h1>封测线物料-影像回溯与 AI 复判演示</h1>
+          <p class="hero__copy">
+            通过序列号或批次号快速回溯工艺路径、设备站点、AOI 影像与 AI 结论，适合展示 WPF/上位机系统的业务抽象能力。
+          </p>
+        </div>
+        <form class="search-box" id="search-form">
+          <label class="search-box__label" for="query">序列号 / 批次号</label>
+          <div class="search-box__row">
+            <input id="query" name="query" placeholder="例如 PKG-240426-00017" />
+            <button type="submit">查询</button>
+          </div>
+          <div class="search-box__quick">
+            <button type="button" data-sample="PKG-240426-00017">异常样本</button>
+            <button type="button" data-sample="LOT-KZ-240426-11">正常批次</button>
+            <button type="button" data-sample="PKG-240426-00024">监控中</button>
+          </div>
+        </form>
+      </header>
+
+      <section class="summary-grid" id="summary-grid"></section>
+
+      <section class="content-grid">
+        <article class="panel">
+          <div class="panel__head">
+            <div>
+              <p class="panel__eyebrow">Unit Detail</p>
+              <h2>回溯对象</h2>
+            </div>
+          </div>
+          <div id="unit-detail"></div>
+          <div class="timeline" id="route-timeline"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel__head">
+            <div>
+              <p class="panel__eyebrow">AI Review</p>
+              <h2>影像与结论</h2>
+            </div>
+          </div>
+          <div id="ai-summary"></div>
+          <div class="review-grid" id="review-grid"></div>
+        </article>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
