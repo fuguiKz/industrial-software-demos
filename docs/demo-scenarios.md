@@ -41,3 +41,31 @@ Recommended explanation:
 1. This demo is scenario-oriented, not packet-memorization oriented.
 2. Alarm/event, remote command, and wafer map are framed as host-equipment business workflows.
 3. The focus is on validation, host action, and traceability binding.
+
+## WPF Traceability Studio
+
+Use this when someone asks:
+
+- 你 WPF / MVVM 具体做过什么？
+- 你说的“物料-影像关联分析系统”是什么样子？
+- AOI 复判和工程人员使用界面怎么结合？
+
+Recommended explanation:
+
+1. It is intentionally built as an engineer workstation, not a visual toy.
+2. Search, route replay, image cards, AI decision and engineer notes are all bound through MVVM.
+3. The design demonstrates how a traceability tool can stay maintainable while still being workflow-oriented.
+
+## WinForms EAP Gate Tool
+
+Use this when someone asks:
+
+- 你 WinForms 做过什么，不只是“做过界面”吧？
+- 你提到的 Lock/Release 逻辑能具体点吗？
+- 设备上控、recipe 校验、Wafer Map 复核在工具里怎么体现？
+
+Recommended explanation:
+
+1. The tool models a real gate decision screen for production or engineering support.
+2. It turns recipe checks, tooling readiness, wafer map validation and hold flags into a release decision.
+3. The payload preview and event log help explain host-command thinking, not just form controls.

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{30EFB79B-1167-4F17-BB89-9AABF30214A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MesDashboardDemo.Api", "src\MesDashboardDemo.Api\MesDashboardDemo.Api.csproj", "{15EDFF47-C895-4F80-BDE9-601A043F82FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceabilityDemo.Api", "src\TraceabilityDemo.Api\TraceabilityDemo.Api.csproj", "{F41F8149-3C09-4870-99BC-525D8C25AB91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecsGemWorkbench", "src\SecsGemWorkbench\SecsGemWorkbench.csproj", "{522F00E6-C602-46A9-B0F2-53CFE04C80C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTraceabilityStudio", "src\WpfTraceabilityStudio\WpfTraceabilityStudio.csproj", "{7C7F79D8-5C04-4DDF-822E-418995F3B1C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsEapGateTool", "src\WinFormsEapGateTool\WinFormsEapGateTool.csproj", "{8E4DE412-F3E8-4A5B-9C10-1C4E5FA6DBF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15EDFF47-C895-4F80-BDE9-601A043F82FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15EDFF47-C895-4F80-BDE9-601A043F82FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15EDFF47-C895-4F80-BDE9-601A043F82FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15EDFF47-C895-4F80-BDE9-601A043F82FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F41F8149-3C09-4870-99BC-525D8C25AB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F41F8149-3C09-4870-99BC-525D8C25AB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F41F8149-3C09-4870-99BC-525D8C25AB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F41F8149-3C09-4870-99BC-525D8C25AB91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{522F00E6-C602-46A9-B0F2-53CFE04C80C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{522F00E6-C602-46A9-B0F2-53CFE04C80C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{522F00E6-C602-46A9-B0F2-53CFE04C80C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{522F00E6-C602-46A9-B0F2-53CFE04C80C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C7F79D8-5C04-4DDF-822E-418995F3B1C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C7F79D8-5C04-4DDF-822E-418995F3B1C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C7F79D8-5C04-4DDF-822E-418995F3B1C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C7F79D8-5C04-4DDF-822E-418995F3B1C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E4DE412-F3E8-4A5B-9C10-1C4E5FA6DBF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E4DE412-F3E8-4A5B-9C10-1C4E5FA6DBF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E4DE412-F3E8-4A5B-9C10-1C4E5FA6DBF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E4DE412-F3E8-4A5B-9C10-1C4E5FA6DBF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{15EDFF47-C895-4F80-BDE9-601A043F82FD} = {30EFB79B-1167-4F17-BB89-9AABF30214A3}
+		{F41F8149-3C09-4870-99BC-525D8C25AB91} = {30EFB79B-1167-4F17-BB89-9AABF30214A3}
+		{522F00E6-C602-46A9-B0F2-53CFE04C80C0} = {30EFB79B-1167-4F17-BB89-9AABF30214A3}
+		{7C7F79D8-5C04-4DDF-822E-418995F3B1C4} = {30EFB79B-1167-4F17-BB89-9AABF30214A3}
+		{8E4DE412-F3E8-4A5B-9C10-1C4E5FA6DBF9} = {30EFB79B-1167-4F17-BB89-9AABF30214A3}
+	EndGlobalSection
+EndGlobal
